@@ -1,0 +1,14 @@
+<?php $this->page_title = 'Rob Keplin\'s Blog &raquo; Admin &raquo; Create Post'; ?>
+
+<div class="post">
+    <h1>Create Post</h1>
+    <?= $this->adminLinks() ?>
+    
+    <?php if(isset($this->message)) : ?>
+    <div class="message">
+        <?= $this->message; ?>
+    </div>
+    <?php endif; ?>
+    
+    <?= $this->form ?>
+</div>
