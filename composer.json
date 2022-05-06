@@ -1,5 +1,6 @@
 {
     "require": {
-        "shardj/zf1-future": "^1.21"
+        "shardj/zf1-future": "^1.21",
+        "zendframework/zendframework1": "^1.12"
     }
 }
